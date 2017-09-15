@@ -5,12 +5,13 @@ Installation via Composer
 -------------------------
 The recommended method to install _Fastly-PHP_ is through [Composer](http://getcomposer.org).
 
-1. Add ``fastly/fastly`` as a dependency in your project's ``composer.json``:
+1. Add ``fastly/fastly`` and ``guzzle/guzzlehttp`` as a dependency in your project's ``composer.json``:
 
     ```json
         {
             "require": {
-                "fastly/fastly": "~0.2"
+                "fastly/fastly": "~0.3",
+                "guzzle/guzzlehttp": "^6.2.0"
             }
         }
     ```
